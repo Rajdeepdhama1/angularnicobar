@@ -1,0 +1,111 @@
+<!--Navbar-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img class="image" src="../../assets/logo.png">
+  <button class="navbar-toggler" type="button"
+  (click)="toggleNavbar()">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+  <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+    <ul class="navbar-nav mr-auto">
+     
+      <span class="dropdown">
+        <button class="dropbtn">NEW</button>
+        <div class="dropdown-content">
+          <a href="#">men</a>
+          <a href="#">women</a>
+          <a href="#">kids</a>
+        </div>
+      </span>
+
+      <span class="dropdown">
+        <button class="dropbtn">MEN</button>
+        <div class="dropdown-content">
+          <a href="#">shirts</a>
+          <a href="#">tshirts</a>
+          <a href="#">jackets</a>
+          <a href="#">jeans</a>
+          <a href="#">shoes</a>
+        </div>
+
+      </span>
+      <span class="dropdown">
+        <button class="dropbtn">WOMEN</button>
+        <div class="dropdown-content">
+          <a href="#">all women</a>
+          <a href="#">kurtas</a>
+          <a href="#">top</a>
+          <a href="#">jeans</a>
+          <a href="#">boot</a>
+        </div>
+
+      </span>
+      <span class="dropdown">
+        <button class="dropbtn">HOME</button>
+        <div class="dropdown-content">
+          <a href="#">nico core</a>
+          <a href="#">dining</a>
+          <a href="#">bedding</a>
+          <a href="#">decor</a>
+          <a href="#">cushions</a>
+        </div>
+
+      </span>
+
+
+      <span class="dropdown">
+        <button class="dropbtn">STORES</button>
+        <div class="dropdown-content">
+          <a href="#">delhi</a>
+          <a href="#">mumbai</a>
+          <a href="#">calcutta</a>
+          <a href="#">chennai</a>
+          <a href="#">bhopal</a>
+        </div>
+
+      </span>
+
+
+      <span class="dropdown">
+        <button class="dropbtn">GIFTS</button>
+        <div class="dropdown-content">
+          <a href="#">birthday</a>
+          <a href="#">wedding</a>
+          <a href="#">aniversary</a>
+          <a href="#">a little thank you</a>
+          <a href="#">welcome home</a>
+        </div>
+
+      </span>
+
+
+      <span class="dropdown">
+        <button class="dropbtn">TRAVEL</button>
+        <div class="dropdown-content">
+          <a href="#">bags</a>
+          <a href="#">packing aids</a>
+          <a href="#">jewelary</a>
+          <a href="#">nico core</a>
+          <a href="#">dresses</a>
+        </div>
+
+      </span>
+    
+    
+    
+    
+
+        <input type="text" class="form-control" placeholder="Search any item">
+        <span class="input-group-btn">
+          <button class="btn btn-default" style="margin-top:10px;"type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </span>
+      </ul>
+  </div>
+</nav>

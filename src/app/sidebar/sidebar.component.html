@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="sidebar">
+    <h3 style="text-align: center">Menswear Collection</h3><br>
+     <div class="dropdown">
+        <button (click)="myFunction1()" class="dropbtn">+ Categories</button>
+        <div id="myDropdown1" class="dropdown-content">
+        <ul>
+
+          <li><button class="categ" (click) = "filter('category','Shirt')">Shirt</button></li>
+         <li><button class="categ"(click) = "filter('category','T-Shirt')"> T-Shirt</button></li>
+         <li><button class="categ"(click) = "filter('category','Jacket')"> Jacket</button></li>
+        <li> <button class="categ"(click) = "filter('category','Trousers')">Trousers</button></li>
+         </ul>
+        </div>
+      </div> 
+      
+    <hr width="50%">
+    <div class="dropdown">
+        <button (click)="myFunction2()" class="dropbtn">+ Color</button>
+        <div id="myDropdown2" class="dropdown-content">
+        <ul>
+
+          <li><button class="categ" (click) = "filter('color','Red')">Red</button></li>
+         <li><button class="categ"(click) = "filter('color','White')"> White</button></li>
+         <li><button class="categ"(click) = "filter('color','Blue')"> Blue</button></li>
+        <li> <button class="categ"(click) = "filter('color','Green')">Green</button></li>
+        <li> <button class="categ"(click) = "filter('color','Pink')">Pink</button></li>
+        <li> <button class="categ"(click) = "filter('color','Brown')">Brown</button></li>
+        <li> <button class="categ"(click) = "filter('color','Grey')">Grey</button></li>
+        <li> <button class="categ"(click) = "filter('color','Black')">Black</button></li>
+         </ul>
+        </div>
+      </div>
+   
+    <hr width="50%">
+    <div class="dropdown">
+        <button (click)="myFunction3()" class="dropbtn">+ size</button>
+        <div id="myDropdown3" class="dropdown-content">
+        <ul>
+
+          <li><button class="categ"(click) = "filter('size','S')">S</button></li>
+         <li><button class="categ"(click) = "filter('size','M')">M </button></li>
+         <li><button class="categ"(click) = "filter('size','L')"> L</button></li>
+        <li> <button class="categ"(click) = "filter('size','XL')">XL</button></li>
+        <li> <button class="categ"(click) = "filter('size','XXL')">XXL</button></li>
+        
+         </ul>
+        </div>
+      </div>
+   
+   
+    </div>
+  <body>
+    <app-body></app-body>
+  </body>
+</div>
