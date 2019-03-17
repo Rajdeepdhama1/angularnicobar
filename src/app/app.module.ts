@@ -8,7 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { HeroComponent } from './hero/hero.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { CartComponent } from './cart/cart.component';
+
 
 @NgModule({
   declarations: [
