@@ -1,12 +1,14 @@
-<div>
-    <div *ngFor="let product of products" class="cardd">
+<div class="col-sm-9">
+    <div *ngFor="let product of products" class="col-sm-6 col-md-4">
   <div ><img [src]="product.url" class="img"/><br>
     <b>{{product.name}}  </b><h5>Rs. {{product.price}}</h5>
     <button>Buy</button>
     </div>
-  
   </div>
 </div>
+
+
+
 
 
 
